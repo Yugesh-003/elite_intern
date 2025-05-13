@@ -8,7 +8,7 @@ nltk.download('averaged_perceptron_tagger')
 
 from nltk.stem.wordnet import WordNetLemmatizer 
 
-sentence = "I ate apple"
+sentence = "He ate apple"
 
 wordtoken = word_tokenize(sentence)
 print(wordtoken)
